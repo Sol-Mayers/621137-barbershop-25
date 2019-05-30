@@ -5,70 +5,106 @@
 <title>Барбершоп "Бородинский"</title>
 </head>
 <body>
-	<header class="main-header">
-	<nav>
-	<ul>
-	<li><a href="information.html">Информация</a></li>
-	<li><a href="news.html">Новости</a></li>
-	<li><a href="price-list.html">Прайс-лист</a></li>
-	<li><a href="shop.html">Магазин</a></li>
-	<li><a href="contacts.html">Контакты</a></li>
-	</ul>
-	<ul>
-	<li class="enter">Вход</li>	
-	</ul>
-	</nav>
-		<a class="main-header-logo">
-	<img src="img/index-logo.svg" width="368" height="153" alt="Логотип барбершопа «Бородинский»">
-		</a>
-	</header>
-	<main>
-		<h2>Средства для ухода</h2>
-	<ul>
-		<li><a href="index.html">Главная</a></li>
-	<li><a href="shop.html">Магазин</a></li>
-	<li><a href="care.html">Средства для ухода</a></li>
-	</ul>
-		<h2>Производители</h2>
-		<!-- Здесь будет форма -->
-		<h2>Группы товаров</h2>
-		<!-- Здесь будет форма -->
-		<input type="button">
-	<section class="list-of-goods">
-	<ul>
-	<li><img src="img/Layer 38.jpg"><a href="product-1.html">Набор для путешествий "Baxter of California"</a></li>
-	<li><img src="img/Layer 30.jpg"><a href="product-2.html">Увлажняющий кондиционер "Baxter of California"</a></li>
-	<li><img src="img/Layer 39.jpg"><a href="product-3.html">Гель для волос "SUAVECITO"</a></li>
-	<li><img src="img/Layer 32.jpg"><a href="product-4.html">Глина для укладки волос "American Crew"</a></li>
-	<li><img src="img/Layer 33.jpg"><a href="product-5.html">Гель для волос "American Crew"</a></li>
-	<li><img src="img/Layer 42.jpg"><a href="product-6.html">Набор для бритья "Baxter of California"</a></li>
-	</ul>
-	</section>
-		<ul class="number-of-page">
-          <li class="one"><a href="#">1</a></li>
-          <li class="two"><a>2</a></li>
-          <li class="three"><a href="#">3</a></li>
-          <li class="four"><a href="#">4</a></li>
-        </ul>
-	</main>
-	<footer>
-	<span>
-		Барбершоп «Бородинский»<br>
-        Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
-        <a href="map.html">Как нас найти?</a><br>
-        Телефон: +7 (812) 666-02-66
-	</span>
-	<br><span>
-	<b>Давайте дружить!</b>
-        <ul>
-          <li><a class="social-button" href="#">Вконтакте</a></li>
-          <li><a class="social-button" href="#">Фейсбук</a></li>
-          <li><a class="social-button" href="#">Инстаграм</a></li>
-        </ul>
-	</span>
-	<span>
-	<b>Разработано:</b> <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
-	</span>
-	</footer>
+<header class="main-header">
+  <nav> <a class="main-header-logo"> <img src="img/logo.svg" alt="Логотип барбершопа «Бородинский»"> </a>
+    <ul>
+      <li><a href="#">Информация</a></li>
+      <li><a href="#">Новости</a></li>
+      <li><a href="#">Прайс-лист</a></li>
+      <li><a href="#">Магазин</a></li>
+      <li><a href="#">Контакты</a></li>
+      <li class="enter"><a href="#">Вход</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <h2>Средства для ухода</h2>
+  <ul>
+    <li><a href="index.html">Главная</a></li>
+    <li><a href="#">Магазин</a></li>
+    <li><a href="#">Средства для ухода</a></li>
+  </ul>
+  <form action="#" method="get">
+    <h3>Производители:</h3>
+    <ul>
+      <li>
+        <label>
+          <input type="checkbox" name="Baxter of California" checked>
+          Baxter of California </label>
+      </li>
+      <li>
+        <label>
+          <input type="checkbox" name="Mr Natty">
+          Mr Natty </label>
+      </li>
+      <li>
+        <label>
+          <input type="checkbox" name="Suavecito" checked>
+          Suavecito </label>
+      </li>
+      <li>
+        <label>
+          <input type="checkbox" name="Malin+Goetz">
+          Malin+Goetz </label>
+      </li>
+      <li>
+        <label>
+          <input type="checkbox" name="Murray's">
+          Murray's </label>
+      </li>
+      <li>
+        <label>
+          <input type="checkbox" name="American Crew" checked>
+          American Crew </label>
+      </li>
+    </ul>
+    <h3>Группы товаров:</h3>
+    <ul>
+      <li>
+        <label>
+          <input type="radio" name="supply" value="shave">
+          Бритвенные принадлежности </label>
+      </li>
+      <li>
+        <label>
+          <input type="radio" name="supply" value="care" checked>
+          Средства для ухода </label>
+      </li>
+      <li>
+        <label>
+          <input type="radio" name="supply" value="accessories">
+          Аксессуары </label>
+      </li>
+    </ul>
+    <button>Показать</button>
+  </form>
+  <section class="list-of-goods">
+    <ul>
+      <li><img src="img/Layer 38.jpg"><a href="#">Набор для путешествий "Baxter of California"</a></li>
+      <li><img src="img/Layer 30.jpg"><a href="#">Увлажняющий кондиционер "Baxter of California"</a></li>
+      <li><img src="img/Layer 39.jpg"><a href="#">Гель для волос "SUAVECITO"</a></li>
+      <li><img src="img/Layer 32.jpg"><a href="#">Глина для укладки волос "American Crew"</a></li>
+      <li><img src="img/Layer 33.jpg"><a href="#">Гель для волос "American Crew"</a></li>
+      <li><img src="img/Layer 42.jpg"><a href="#">Набор для бритья "Baxter of California"</a></li>
+    </ul>
+  </section>
+  <ul class="number-of-page">
+    <li class="one"><a href="#">1</a></li>
+    <li class="two"><a href="#">2</a></li>
+    <li class="three"><a href="#">3</a></li>
+    <li class="four"><a href="#">4</a></li>
+  </ul>
+</main>
+<footer> <span> Барбершоп «Бородинский»<br>
+  Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+  <a href="#">Как нас найти?</a><br>
+  <a href="tel:+78126660266" class="tel">Телефон: +7 (812) 666-02-66</a> </span> <br>
+  <span> <b>Давайте дружить!</b>
+  <ul>
+    <li><a class="social-button" href="#">Вконтакте</a></li>
+    <li><a class="social-button" href="#">Фейсбук</a></li>
+    <li><a class="social-button" href="#">Инстаграм</a></li>
+  </ul>
+  </span> <span> <b>Разработано:</b> <a class="button" href="https://htmlacademy.ru">HTML Academy</a> </span> </footer>
 </body>
 </html>
